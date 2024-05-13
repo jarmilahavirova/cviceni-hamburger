@@ -6,7 +6,7 @@ export const MenuItem = ({ text, onSelect }) => {
       href="#"
       className="menu-item"
       onClick={() => {
-        onSelect();
+        onSelect(text);
       }}
     >
       {text}
